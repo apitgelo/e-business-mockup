@@ -32,4 +32,18 @@ class Home extends CI_Controller
         $this->load->view('product/details');
         $this->load->view('partials/footer');
     }
+
+    public function cart()
+    {
+        $this->load->view('partials/navbar');
+        $this->load->view('cart');
+        $this->load->view('partials/footer');
+    }
+
+    public function checkout()
+    {
+        $this->load->view('partials/navbar');
+        $this->load->view('checkout');
+        $this->load->view('partials/footer');
+    }
 }

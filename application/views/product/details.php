@@ -39,7 +39,7 @@
 
 					<!-- Botones de compra -->
 					<div class="section" style="padding-bottom:20px;">
-						<button class="btn btn-default"><span style="margin-right:20px" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Buy</button>
+						<a href="cart" class="btn btn-default" role="button"><span style="margin-right:20px" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Buy</a>
 						<h6><a href="#"><span class="glyphicon glyphicon-heart-empty" style="cursor:pointer;"></span> Add to Wishlist</a></h6>
 					</div>
 				</div>

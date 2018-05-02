@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>">
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOLdllu3vle2yj-LcRIc7q6VOkVMXwbnw&libraries=places"></script>
+<script src='https://cdn.rawgit.com/Logicify/jquery-locationpicker-plugin/master/dist/locationpicker.jquery.min.js'></script>
 </head>
 <body>
 <nav class="navbar navbar-top navbar-static-top" role="navigation">
@@ -35,21 +37,23 @@
         <ul class="nav navbar-nav">
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktops</a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+                <li><a href="#">Case</a></li>
+                <li><a href="#">Graphic Card</a></li>
+                <li><a href="#">Keyboard</a></li>
+                <li><a href="#">Monitor</a></li>
+                <li><a href="#">Mouse</a></li>
+                <li><a href="#">Processor</a></li>
+                <li><a href="#">PSU</a></li>
+                <li><a href="#">RAM</a></li>
+                <li><a href="#">Storage</a></li>
               </ul>
             </li>
 
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Laptop & Notebooks</a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+                <li><a href="#">Case</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Notebook</a></li>
               </ul>
             </li>
 
